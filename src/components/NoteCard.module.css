@@ -1,0 +1,65 @@
+.card {
+  padding: 12px 14px;
+  border-radius: 10px;
+  border: 1px solid #ebebeb;
+  margin-bottom: 8px;
+  cursor: pointer;
+  background: #ffffff;
+  transition: all 0.15s ease;
+}
+
+.card:hover {
+  border-color: #AFA9EC;
+  background: #f8f7ff;
+}
+
+.active {
+  border-color: #534AB7;
+  background: #EEEDFE;
+}
+
+.cardTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 4px;
+}
+
+.title {
+  font-size: 13px;
+  font-weight: 600;
+  color: #1a1a1a;
+}
+
+.pin {
+  font-size: 12px;
+}
+
+.preview {
+  font-size: 12px;
+  color: #999;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 8px;
+}
+
+.meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.category {
+  font-size: 11px;
+  padding: 2px 8px;
+  border-radius: 20px;
+  background: #EEEDFE;
+  color: #534AB7;
+  font-weight: 500;
+}
+
+.date {
+  font-size: 11px;
+  color: #bbb;
+}
