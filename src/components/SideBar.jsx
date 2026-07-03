@@ -1,6 +1,6 @@
 
 import NoteCard  from "./NoteCard.jsx";
-import styles from './Sidebar.module.css'
+import styles from './SideBar.module.css'
 
 function SideBar({notes,onSelect,onAdd,onSearch,search,selectedCategory,onCategoryChange}){
     const categories = ["All", "Personal", "Study", "Work"]
